@@ -1,0 +1,64 @@
+
+    .navbar{
+      font-family: 'Cloud Soft';
+  }
+  .navbar-brand{
+      font-size: 30px;
+      font-weight: bold;
+  }
+
+  .nav-item {
+      margin-left: 10px;
+  }
+
+  /* ปุ่ม ค้นหา */
+  .btn-outline-secondary {
+    border-top-color: white;
+    border-left-color: white;
+    border-bottom-color: white;
+    border-right-color: white;
+    color: white;
+  }
+
+  .btn-outline-secondary:hover {
+    border-top-color: white;
+    border-left-color: white;
+    border-bottom-color: white;
+    border-right-color: white;
+    background-color: white;
+    color: black;
+  }
+
+  /* ปุ่ม dorpdown */
+  .btn-custom {
+      border-top-color: white;
+      border-left-color: white;
+      border-bottom-color: white;
+      background-color: #17a2b8;
+      color: white;
+      border-top-right-radius: 0%;
+      border-bottom-right-radius: 0%;
+  }
+  .btn-custom:hover {
+      border-color: white;
+      background-color: white;
+      color: black;
+  }
+  .btn-custom:active {
+      border-color: #17a2b8;
+      background-color: white;
+      color: black;
+  }
+  .btn-custom2 {
+      border-top-color: white;
+      border-bottom-color: white;
+      border-right-color: white;
+      background-color: #17a2b8;
+      color: white;
+      border-top-left-radius: 0%;
+      border-bottom-left-radius: 0%;
+  }
+  .btn-custom2:hover {
+      background-color: white;
+      color: black;
+  }
