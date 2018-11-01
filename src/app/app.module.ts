@@ -10,8 +10,8 @@ import { HeaderComponent } from './project/core/header/header.component';
 import { FooterComponent } from './project/core/footer/footer.component';
 import { RegisterComponent } from './project/module/register/register.component';
 import { LoginComponent } from './project/module/login/login.component';
-import { DashboardComponent } from './project/module/member/dashboard/dashboard.component';
-import { ProfileComponent } from './project/module/member/profile/profile.component';
+import { DashboardComponent } from './project/module/member/module/dashboard/dashboard.component';
+import { ProfileComponent } from './project/module/member/module/profile/profile.component';
 import { MemberComponent } from './project/module/member/member.component';
 
 @NgModule({
