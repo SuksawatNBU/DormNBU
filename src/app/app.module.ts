@@ -16,6 +16,8 @@ import { MemberComponent } from './project/module/member/member.component';
 import { ReportComponent } from './project/module/member/module/report/report.component';
 import { ApartmentComponent } from './project/module/member/module/apartment/apartment.component';
 
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,7 +36,8 @@ import { ApartmentComponent } from './project/module/member/module/apartment/apa
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AngularFontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

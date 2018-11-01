@@ -6,11 +6,11 @@
         font-size: 30px;
         font-weight: bold;
     }
-  
+
     .nav-item {
         margin-left: 10px;
     }
-  
+
     /* ปุ่ม ค้นหา */
     .btn-outline-secondary {
       border-top-color: white;
@@ -19,7 +19,7 @@
       border-right-color: white;
       color: white;
     }
-  
+
     .btn-outline-secondary:hover {
       border-top-color: white;
       border-left-color: white;
@@ -28,12 +28,16 @@
       background-color: white;
       color: black;
     }
-  
-    /* ปุ่ม dorpdown */
+
+    /* ปุ่ม ลงทะเบียน */
+    .btn-register {
+      border-color: white;
+      background-color: #17a2b8;
+      color: white;
+    }
+
     .btn-custom {
-        border-top-color: white;
-        border-left-color: white;
-        border-bottom-color: white;
+      border-color: white;
         background-color: #17a2b8;
         color: white;
         border-top-right-radius: 0%;
@@ -62,4 +66,3 @@
         background-color: white;
         color: black;
     }
-  
