@@ -13,6 +13,8 @@ import { LoginComponent } from './project/module/login/login.component';
 import { DashboardComponent } from './project/module/member/module/dashboard/dashboard.component';
 import { ProfileComponent } from './project/module/member/module/profile/profile.component';
 import { MemberComponent } from './project/module/member/member.component';
+import { ReportComponent } from './project/module/member/module/report/report.component';
+import { ApartmentComponent } from './project/module/member/module/apartment/apartment.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { MemberComponent } from './project/module/member/member.component';
     LoginComponent,
     DashboardComponent,
     ProfileComponent,
-    MemberComponent
+    MemberComponent,
+    ReportComponent,
+    ApartmentComponent
   ],
   imports: [
     BrowserModule,
